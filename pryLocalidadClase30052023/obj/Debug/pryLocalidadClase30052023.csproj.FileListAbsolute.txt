@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\bin\Debug\pryLocalidadClase30052023.exe.config
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\bin\Debug\pryLocalidadClase30052023.exe
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\bin\Debug\pryLocalidadClase30052023.pdb
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\obj\Debug\pryLocalidadClase30052023.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\obj\Debug\pryLocalidadClase30052023.frmlocalidad.resources
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\obj\Debug\pryLocalidadClase30052023.Properties.Resources.resources
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\obj\Debug\pryLocalidadClase30052023.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\obj\Debug\pryLocalidadClase30052023.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\obj\Debug\pryLocalidadClase30052023.exe
+C:\Users\Alumno\source\repos\pryLocalidadClase30052023\obj\Debug\pryLocalidadClase30052023.pdb
