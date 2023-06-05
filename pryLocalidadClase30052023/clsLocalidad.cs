@@ -48,5 +48,7 @@ namespace pryLocalidadClase30052023
             lb.ValueMember = "localidad";
             lb.DataSource = tabla;
         }
+
+        
     }
 }

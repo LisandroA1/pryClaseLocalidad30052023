@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Windows.Forms.DataVisualization.Charting;
+
 namespace pryLocalidadClase30052023
 {
     public partial class frmlocalidad : Form
@@ -44,6 +46,8 @@ namespace pryLocalidadClase30052023
         {
             //limpio el grafico
             chtGraficoLocalidad.Series.Clear();
+            clsProduccion objProduccion = new clsProduccion();
+            objProduccion.graficar((int)lsbLocalidad.SelectedValue, chtGraficoLocalidad);
 
 
         }

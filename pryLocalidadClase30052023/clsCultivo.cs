@@ -41,5 +41,9 @@ namespace pryLocalidadClase30052023
             combo.ValueMember = "cultivo";
             combo.DataSource = tabla;
         }
+        public DataTable getCultivo()
+        {
+            return tabla;
+        }
     }
 }

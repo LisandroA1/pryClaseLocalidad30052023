@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using System.Data;
 using System.Data.OleDb;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace pryLocalidadClase30052023
 {
@@ -63,6 +64,33 @@ namespace pryLocalidadClase30052023
             }
             
             return valor;
+        }
+
+        public void graficar(int localidad, Chart chart)
+        {
+            clsCultivo objCultivo = new clsCultivo();
+            DataTable tc = objCultivo.getCultivo();
+
+            chart.Series.Clear();
+            Series serie = chart.Series.Add("Produccion");
+
+            foreach (DataRow fc in tc.Rows)
+            {
+                Object[] clave = new object[2];
+                clave[0] = localidad;
+                clave[1] = fc["cultivo"].ToString();
+
+                int toneladas = 0;
+                DataRow fp = tabla.Rows.Find(clave);
+
+                if (fp != null)
+                {
+                    toneladas = (int)fp["toneladas"];
+                }
+
+                serie.Points.AddXY(fc["nombre"], toneladas);
+
+            }
         }
     }
 }
